@@ -216,55 +216,6 @@ ul, li {
 }
 
 /**************** TIRA DÚVIDAS ****************/
-.duvidas {
-    background-image: url("./img/background-duvidas1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    margin-top: -30px;
-}
 
-.duvidas-titulo {
-    font-family: var(--fonte-titulos);
-    font-size: var(--fonte-size-titulos);
-    padding: 1rem;
-    text-align: center;
-    margin-bottom: 3rem;
-    color: #fff;
-}
-
-.acordion {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding-bottom: 1.5rem;
-    justify-items: end;
-}
-
-.acordion-item {
-    margin-bottom: 2rem;
-    max-width: 800px;
-    /* background-color: var(--cor-titulos); */
-    box-shadow: 4px 1px 1px 1px #fff;
-    margin-right: 2rem;
-}
-
-.acordion-item h2 {
-    font-family: var(--fonte-corpo);
-    font-size: var(--fonte-size-subtitulo);
-    text-align: center;
-    color: var(--cor-titulos);
-    padding: 1rem;
-}
-
-.acordion-item p {
-    max-width: 800px;
-    /* margin: 0 auto; */
-    padding: 0.5rem;
-    font-family: var(--fonte-corpo);
-    font-size: var(--fonte-size-corpo);
-    color: #fff;
-
-}
 
 /**************** BANNER ****************/
