@@ -215,7 +215,61 @@ ul, li {
     padding-bottom: 50px;
 }
 
-/**************** TIRA DÚVIDAS ****************/
+ /**************** TIRA DÚVIDAS - ACCORDION ****************/
+ .duvidas {
+     position: relative;
+     background-image: url("./img/background-fibra.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     margin-top: -20px;
+ }
+
+.duvidas-titulo {
+    font-family: var(--fonte-titulos);
+    font-size: var(--fonte-size-titulos);
+    text-align: center;
+    margin-bottom: 2.5rem;
+    padding: 1rem;
+    color: #fff;
+}
+
+.img-rj45 {
+    width: 600px;
+    position: absolute;
+    right: 880px;
+    top: -20px;
+}
+
+.acordion {
+    text-align: center;
+    /* background-color: var(--cor-titulos); */
+}
+
+.acordion-item {
+    padding: 1rem;
+    cursor: pointer; 
+}
+
+.acordion-item:nth-child(1) {
+    background-color: yellowgreen;
+}
 
 
+.acordion-item summary {
+    font-family: var(--fonte-corpo);
+    font-size: var(--fonte-size-subtitulo);
+    color: #fff;
+}
+
+.acordion-item  p {
+    width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: var(--fonte-corpo);
+    line-height: 1.4;
+    text-align: start;
+    color: #fff;
+}
 /**************** BANNER ****************/
