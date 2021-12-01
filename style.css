@@ -231,16 +231,14 @@ ul, li {
     color: var(--cor-titulos);
 }
 
-/* .img-rj45 {
-    width: 600px;
-    position: absolute;
-    right: 880px;
-    top: 2px;
-} */
+.img-rj45 {
+    width: 200px;
+    margin: 0 auto;
+}
 
 .acordion {
     text-align: center;
-    /* background-color: var(--cor-titulos); */
+    
 }
 
 .acordion-item {
@@ -289,4 +287,24 @@ details[open] summary ~ * {
         margin-top: 0px;
     }
 }
-/**************** BANNER ****************/
+/**************** SECTION - SUPORTE ****************/
+.s-caixas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+
+.caixa {
+    max-width: 400px;
+    text-align: center;
+    background-color: wheat;
+    padding: 1rem;
+}
+
+.caixa img {
+    margin: 0 auto;
+    width: 140px;
+}
