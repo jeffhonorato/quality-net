@@ -16,6 +16,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 img {
     max-width: 100%;
     display: block;
@@ -23,6 +27,7 @@ img {
 
 a {
     text-decoration: none;
+    display: block;
 }
 
 ul, li {
@@ -154,14 +159,13 @@ ul, li {
 
 .card-plano {
     padding: 2rem;
-    transform: rotateY(10deg);
-    transform: rotatex(10deg);
+    transform: rotateX(10deg);
     box-shadow: 0px 0px 30px 0px #96031A;
 
 }
 
 .card-plano:hover {
-    transform: rotateY(0deg);
+    transform: rotateX(0deg);
     transition: all 0.6s;
     box-shadow: 1px 1px 1px 4px #96031A;
 }
@@ -263,14 +267,35 @@ ul, li {
     color: #000;
 }
 
-.acordion-item  p {
-    width: 500px;
+.acordion-item p {
+    width: 600px;
     margin: 0 auto;
     padding: 1rem;
     font-family: var(--fonte-corpo);
+    font-size: var(--fonte-size-corpo);
     line-height: 1.4;
     text-align: start;
     color: #fff;
+}
+
+.acordion-item a {
+    font-family: var(--fonte-corpo);
+    font-size: var(--fonte-size-corpo);
+    background-color: #96031A;
+    color: #fff;
+    padding: 0.5rem;
+    display: block;
+    text-align: center;
+    border-radius: 20%;
+    width: 160px;
+    margin: 4px auto;
+}
+
+.acordion-item a:hover {
+    background-color: var(--cor-itens-btn);
+    transition: all 0.6s;
+    color: #000;
+    font-weight: bold;
 }
 
 details[open] summary ~ * {
@@ -288,6 +313,10 @@ details[open] summary ~ * {
     }
 }
 /**************** SECTION - SUPORTE ****************/
+.suporte {
+    padding-top: 3rem;
+}
+
 .s-caixas {
     display: flex;
     flex-wrap: wrap;
@@ -300,7 +329,6 @@ details[open] summary ~ * {
 .caixa {
     max-width: 400px;
     text-align: center;
-    background-color: wheat;
     padding: 1rem;
 }
 
@@ -308,3 +336,117 @@ details[open] summary ~ * {
     margin: 0 auto;
     width: 140px;
 }
+
+.caixa h3 {
+    margin-top: 1rem;
+    font-family: var(--fonte-corpo);
+    font-size: var(--fonte-size-subtitulo);
+}
+
+.caixa p {
+    margin-top: 0.5rem;
+    font-family: var(--fonte-corpo);
+    font-size: var(--fonte-size-corpo);
+}
+
+.caixa a {
+    font-family: var(--fonte-corpo);
+    font-size: var(--fonte-size-corpo);
+    background-color: #96031A;
+    color: #fff;
+    padding: 0.5rem;
+    display: block;
+    text-align: center;
+    border-radius: 20%;
+    width: 120px;
+    margin: 10px auto;
+}
+
+.caixa a:hover {
+    background-color: var(--cor-itens-btn);
+    transition: all 0.6s;
+    color: #000;
+    font-weight: bold;
+}
+
+/**************** SECTION - TESTE VELOCIDADE ****************/  
+.teste {
+    background-image: url("./img/background-teste.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.speed-teste h2 {
+    font-family: var(--fonte-corpo);
+    font-size: var(--fonte-size-titulos);
+    color: #fff;
+    text-align: center;
+    padding-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.speed-teste a {
+    font-family: var(--fonte-corpo);
+    font-size: var(--fonte-size-corpo);
+    background-color: #96031A;
+    color: #fff;
+    padding: 0.5rem;
+    display: block;
+    text-align: center;
+    border-radius: 20%;
+    width: 160px;
+    margin: 10px auto;
+}
+
+.speed-teste a:hover {
+    background-color: var(--cor-itens-btn);
+    transition: all 0.6s;
+    color: #000;
+    font-weight: bold;
+}
+
+.speed-teste img {
+    width: 60px;
+}
+
+/**************** SECTION - FOOTER ****************/  
+.endereco {
+    background-image: url("./img/background-footer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+
+    
+}
+
+.end-bloco {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 800px;
+    /* background-color: bisque; */
+    align-items: center;
+    align-content: center;
+}
+
+.logo-footer {
+    width: 420px;
+}
+
+.localizacao p {
+    font-family: var(--fonte-corpo);
+    font-size: var(--fonte-size-subtitulo);
+    color: #fff;
+    
+}
+
+.horario p {
+    font-family: var(--fonte-corpo);
+    font-size: var(--fonte-size-subtitulo);
+    color: #fff;
+}
+
+
