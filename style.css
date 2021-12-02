@@ -496,6 +496,50 @@ details[open] summary ~ * {
     figure.logo {
         width: 260px;
     }
+
+    .titulo-plano h3 {
+        font-size: var(--fonte-size-corpo);
+        padding: 0.5rem;
+    }
+
+    .card-plano {
+        width: 220px;
+        margin-bottom: 50px;
+        padding: 0.5rem;
+        transform: rotateX(1deg);
+    }
+    
+    
+    .card-plano h3 {
+        font-family: var(--fonte-corpo);
+        font-size: var(--fonte-size-subtitulo);
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    
+    .card-plano p {
+        font-family: var(--fonte-corpo);
+        font-size: 1.25rem;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .card-plano a {
+        font-family: var(--fonte-titulos);
+        font-size: var(--fonte-size-corpo);
+        width: 100px;
+        margin: 1rem auto;
+        
+    }
+
+    .acordion-item p {
+        width: 220px;
+        padding: 0.5rem;
+    }
+
+    .duvidas-titulo {
+        font-size: var(--fonte-size-subtitulo);
+    }
     
     .logo-apresentacao {
         width: 240px;
@@ -517,8 +561,34 @@ details[open] summary ~ * {
        width: 240px; 
     }
 
-    .acordion-item p {
-        width: 200px;
+    .speed-teste h2 {
+        font-size: var(--fonte-size-corpo);
+        padding: 0.5rem;
+        margin-top: 0.5rem;
     }
+
+    .end-bloco {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 0.5rem;
+    }
+
+    .localizacao p {
+        color: var(--cor-titulos);
+        text-align: center;
+        font-size: 1.35rem;
+    }
+
+    .horario p {
+        text-align: center;
+        font-size: 1.35rem;
+        color: #fff;
+    }
+
+    .g-maps iframe {
+        width: 320px;
+    }
+
 }
 
