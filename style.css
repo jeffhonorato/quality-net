@@ -492,9 +492,33 @@ details[open] summary ~ * {
 
 /**************** RESPONSIVIDADE ****************/
 
-@media(min-width: 320px) and (max-width: 425px) {
+@media(max-width: 425px) {
+    figure.logo {
+        width: 260px;
+    }
+    
+    .logo-apresentacao {
+        width: 240px;
+        /* padding-top: 1rem; */
+    }
+
+    .info-conteudo h1 {
+        font-size: var(--fonte-size-subtitulo);
+        margin-top: -80px;
+    }
+
+    .info-conteudo p {
+        font-size: 12px;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+    
     .acordion-item {
-       width: 200px; 
+       width: 240px; 
+    }
+
+    .acordion-item p {
+        width: 200px;
     }
 }
 
