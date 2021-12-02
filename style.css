@@ -248,7 +248,7 @@ ul, li {
 .acordion-item {
     padding: 1rem;
     cursor: pointer; 
-    width: 900px;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -419,17 +419,16 @@ details[open] summary ~ * {
     background-size: cover;
     background-attachment: fixed;
     height: 800px;
-
-    
 }
 
 .end-bloco {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     height: 800px;
-    /* background-color: bisque; */
+    gap: 1rem;
     align-items: center;
     align-content: center;
+    justify-content: center;
 }
 
 .logo-footer {
@@ -440,7 +439,6 @@ details[open] summary ~ * {
     font-family: var(--fonte-corpo);
     font-size: var(--fonte-size-subtitulo);
     color: #fff;
-    
 }
 
 .horario p {
@@ -449,4 +447,54 @@ details[open] summary ~ * {
     color: #fff;
 }
 
+.g-maps {
+    background-color: #000;
+    text-align: center;
+}
+
+.desenvolvedor {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--cor-titulos);
+}
+
+.desenvolvedor p {
+    margin-bottom: 0.5rem;
+    font-family: var(--fonte-corpo);
+    font-size: var(--fonte-corpo);
+    font-weight: bold;
+}
+
+.desenvolvedor a {
+    display: inline-block;
+    font-size: 1rem;
+    font-family: var(--fonte-titulos);
+    padding: 0.5rem;
+    color: #fff;
+}
+
+.desenvolvedor a:hover {
+    background-color: var(--cor-itens-btn);
+    border-radius: 6px;
+    transition: all 0.6s;
+    color: #000;
+}
+
+.desenvolvedor img {
+    display: inline-block;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.img-logo-primata {
+    margin-left: 4px;
+}
+
+/**************** RESPONSIVIDADE ****************/
+
+@media(min-width: 320px) and (max-width: 425px) {
+    .acordion-item {
+       width: 200px; 
+    }
+}
 
