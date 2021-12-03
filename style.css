@@ -602,8 +602,34 @@ details[open] summary ~ * {
         font-size: 1.5rem
     }
 
+    .end-bloco {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 0.5rem;
+        
+    }
+
+    .logo-footer {
+        margin: 0 auto;
+    }
+
+    .localizacao p {
+        color: var(--cor-titulos);
+        text-align: center;
+        font-size: 1.35rem;
+    }
+
+    .horario p {
+        text-align: center;
+        font-size: 1.35rem;
+        color: #fff;
+    }
+
     .g-maps iframe {
         width: 420px;
     }
+
+    
 }
 
