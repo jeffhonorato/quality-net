@@ -544,8 +544,6 @@ details[open] summary ~ * {
         
     }
 
-  
-
     .duvidas-titulo {
         font-size: var(--fonte-size-subtitulo);
     }
@@ -561,7 +559,7 @@ details[open] summary ~ * {
     }
 
     .info-conteudo p {
-        font-size: 12px;
+        font-size: 1rem;
         padding: 1rem;
         margin: 0 auto;
     }
