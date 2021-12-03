@@ -167,7 +167,7 @@ ul, li {
 .card-plano:hover {
     transform: rotateX(0deg);
     transition: all 0.6s;
-    box-shadow: 1px 1px 1px 4px #96031A;
+    box-shadow: 1px 1px 1px 4px #fff;
 }
 
 .card-plano img {
@@ -508,7 +508,6 @@ details[open] summary ~ * {
         padding: 0.5rem;
         transform: rotateX(1deg);
     }
-    
     
     .card-plano h3 {
         font-family: var(--fonte-corpo);
