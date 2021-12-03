@@ -609,6 +609,7 @@ details[open] summary ~ * {
         
     }
 
+<<<<<<< Updated upstream
     .logo-footer {
         margin: 0 auto;
     }
@@ -630,5 +631,28 @@ details[open] summary ~ * {
     }
 
     
+=======
+    .cards fibra {
+        height: 1200px;
+    }
+
+    .titulo-plano h2 {
+        font-size: var(--fonte-size-subtitulo);
+    }
+
+    .titulo-plano h3 {
+        font-size: var(--fonte-size-corpo);
+        padding: 1rem;
+    }
+
+    .card-plano {
+        padding: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .card-plano:nth-child(3) {
+        margin-bottom: 2rem;
+    }
+>>>>>>> Stashed changes
 }
 
