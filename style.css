@@ -544,10 +544,7 @@ details[open] summary ~ * {
         
     }
 
-    .acordion-item p {
-        width: 220px;
-        padding: 0.5rem;
-    }
+  
 
     .duvidas-titulo {
         font-size: var(--fonte-size-subtitulo);
@@ -577,6 +574,11 @@ details[open] summary ~ * {
         font-size: var(--fonte-size-corpo);
         padding: 0.5rem;
         margin-top: 0.5rem;
+    }
+
+    .acordion-item p {
+        width: 220px;
+        padding: 0.5rem;
     }
 
     .end-bloco {
@@ -611,7 +613,8 @@ details[open] summary ~ * {
     }
 
     .acordion-item p {
-        font-size: 1.5rem
+        font-size: 1.5rem;
+        width: 400px;
     }
 
     .end-bloco {
