@@ -51,6 +51,14 @@ ul, li {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    margin-top: 2rem;
+}
+
+.menu-img {
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    display: none;
 }
 
 .nav-item li {
@@ -506,6 +514,7 @@ details[open] summary ~ * {
 /**************** RESPONSIVIDADE ****************/
 
 @media(max-width: 425px) {
+
     figure.logo {
         width: 260px;
     }
@@ -669,6 +678,29 @@ details[open] summary ~ * {
         font-size: var(--fonte-size-corpo);
         padding: 0.5rem;
         margin-top: 0.5rem;
+    }
+}
+
+@media(max-width: 700px) {
+    .menu-img {
+        display: block;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .nav-item.ativo {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 425px) {
+    .nav-item.ativo {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
     }
 }
 
