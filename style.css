@@ -136,13 +136,15 @@ ul, li {
 .titulo-plano h2 {
     font-family: var(--fonte-titulos);
     font-size: var(--fonte-size-titulos);
-    color: #000;
+    color: var(--cor-titulos);
     padding: 1rem;
 }
 
 .titulo-plano h3 {
     font-family: var(--fonte-corpo);
     font-size: var(--fonte-size-subtitulo);
+    color: #fff;
+    
 }
 
 .cards {
