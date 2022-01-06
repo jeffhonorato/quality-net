@@ -256,6 +256,7 @@ ul, li {
 
 .acordion {
     text-align: center;
+    padding: 4rem;
     
 }
 
@@ -328,7 +329,7 @@ details[open] summary ~ * {
 }
 /**************** SECTION - SUPORTE ****************/
 .suporte {
-    padding-top: 3rem;
+    padding: 3rem 0;
 }
 
 .s-caixas {
