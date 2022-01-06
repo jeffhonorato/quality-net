@@ -125,7 +125,7 @@ ul, li {
 }
 
 .container {
-    max-width: 980px;
+    max-width: 1100px;
     margin: 0 auto;
     /* background-color: #a4b89f; */
 }
@@ -151,7 +151,7 @@ ul, li {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 2rem;
     justify-content: center;
     perspective: 700px;
 }
@@ -255,9 +255,8 @@ ul, li {
 }
 
 .acordion {
-    text-align: center;
+    /* text-align: center; */
     padding: 4rem;
-    
 }
 
 .acordion-item {
@@ -272,7 +271,7 @@ ul, li {
     font-size: var(--fonte-size-subtitulo);
     color: #000;
     background-color: var(--cor-titulos);
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 1rem;
 }
 
@@ -581,18 +580,24 @@ details[open] summary ~ * {
     }
     
     .acordion-item {
-       width: 240px; 
+       width: 280px; 
+       margin: 0 auto;
+       padding: 0.5rem;
+    }
+
+    .acordion-item summary {
+        font-size: 1.2rem;
+    }
+
+    .acordion-item p {
+        width: 220px;
+        padding: 0.5rem;
     }
 
     .speed-teste h2 {
         font-size: var(--fonte-size-corpo);
         padding: 0.5rem;
         margin-top: 0.5rem;
-    }
-
-    .acordion-item p {
-        width: 220px;
-        padding: 0.5rem;
     }
 
     .end-bloco {
@@ -673,7 +678,8 @@ details[open] summary ~ * {
     }
 
     .card-plano {
-        padding: 0.5rem;
+        width: 320px;
+        padding: 1rem;
         margin-bottom: 2rem;
     }
 
