@@ -255,7 +255,9 @@ ul, li {
 }
 
 .acordion {
-    /* text-align: center; */
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
     padding: 4rem;
 }
 
