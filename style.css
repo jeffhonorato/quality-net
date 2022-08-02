@@ -274,6 +274,7 @@ ul, li {
 .acordion {
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
 }
@@ -585,6 +586,10 @@ details[open] summary ~ * {
 
     .duvidas-titulo {
         font-size: var(--fonte-size-subtitulo);
+    }
+
+    .acordion--img {
+        width: 300px;
     }
     
     .logo-apresentacao {
