@@ -197,6 +197,7 @@ ul, li {
 
 .card-preco {
     box-shadow: 1px 1px 10px 1px #fff;
+    border-radius: 20%;
 }
 
 .card-plano h2 {
@@ -552,7 +553,10 @@ details[open] summary ~ * {
 
     .titulo-plano h3 {
         font-size: var(--fonte-size-corpo);
-        padding: 0.5rem;
+    }
+
+    .cards {
+        padding-top: 2rem;
     }
 
     .card-plano {
@@ -560,6 +564,11 @@ details[open] summary ~ * {
         margin-bottom: 50px;
         padding: 0.5rem;
         transform: rotateX(1deg);
+    }
+
+
+    .imgHeader  {
+        width: 150px;
     }
     
     .card-plano h3 {
