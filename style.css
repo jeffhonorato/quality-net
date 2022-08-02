@@ -170,7 +170,7 @@ ul, li {
 
 .card-plano {
     padding: 2rem;
-    transform: rotateX(7deg);
+    transform: rotateX(4deg);
     box-shadow: 0px 0px 30px 0px #96031A;
 
     background: rgba(101, 131, 254, 0.51);
@@ -188,7 +188,7 @@ ul, li {
     box-shadow: 1px 1px 1px 4px #fff;
 }
 
-.card-plano img {
+.imgHeader {
     width: 200px;
     position: relative;
     bottom: 100px;
@@ -217,18 +217,19 @@ ul, li {
     padding: 0.5rem;
 }
 
-.card-plano--fibra {
+.card-plano--info {
     display: flex;
     gap: .5rem;
+    align-items: center;
 }
 
-.img-fibraIco {
-    width: 30px;
+.img-ico {
+    width: 50px;
 }
 
 .card-plano p {
     font-family: var(--fonte-corpo);
-    font-size: 1.65rem;
+    font-size: 1.5rem;
     color: #fff;
 }
 
