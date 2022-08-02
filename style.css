@@ -503,6 +503,7 @@ details[open] summary ~ * {
 .g-maps {
     background-color: #000;
     text-align: center;
+    padding-bottom: 4rem;
 }
 
 .desenvolvedor {
@@ -665,6 +666,7 @@ details[open] summary ~ * {
 
     .g-maps iframe {
         width: 320px;
+        margin-bottom: 2rem;
     }
 
 }
