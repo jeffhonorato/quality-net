@@ -257,46 +257,46 @@ ul, li {
 
  /**************** TIRA DÚVIDAS - ACCORDION ****************/
  .duvidas {
-     /* position: relative; */
      margin-top: -20px;
-     background-color: #010D63;;
+     background-color: #010D63;
+     padding: 3rem 0rem;
  }
 
 .duvidas-titulo {
     font-family: var(--fonte-titulos);
     font-size: var(--fonte-size-titulos);
     text-align: center;
-    margin-bottom: 2.5rem;
+    margin-bottom: .5rem;
     padding: 1rem;
     color: var(--cor-titulos);
 }
 
-.img-rj45 {
-    width: 200px;
-    margin: 0 auto;
+.acordion {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-.acordion {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    padding: 4rem;
+.acordion--img {
+    width: 450px;
 }
 
 .acordion-item {
     padding: 1rem;
     cursor: pointer; 
-    width: 800px;
+    width: 500px;
     margin: 0 auto;
 }
 
 .acordion-item summary {
     font-family: var(--fonte-corpo);
-    font-size: var(--fonte-size-subtitulo);
+    font-size: 1.2rem;
     color: #000;
     background-color: var(--cor-titulos);
     padding: 1.5rem;
     border-radius: 1rem;
+    text-align: center;
 }
 
 .acordion-item summary:hover {
@@ -306,11 +306,11 @@ ul, li {
 }
 
 .acordion-item p {
-    width: 600px;
+    width: 500px;
     margin: 0 auto;
     padding: 1rem;
     font-family: var(--fonte-corpo);
-    font-size: var(--fonte-size-corpo);
+    font-size: 1rem;
     line-height: 1.4;
     text-align: start;
     color: #fff;
