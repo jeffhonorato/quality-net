@@ -170,14 +170,21 @@ ul, li {
 
 .card-plano {
     padding: 2rem;
-    transform: rotateX(10deg);
+    transform: rotateX(7deg);
     box-shadow: 0px 0px 30px 0px #96031A;
+
+    background: rgba(101, 131, 254, 0.51);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(101, 131, 254, 1);
 
 }
 
 .card-plano:hover {
     transform: rotateX(0deg);
-    transition: all 0.6s;
+    transition: all .6s;
     box-shadow: 1px 1px 1px 4px #fff;
 }
 
@@ -197,7 +204,7 @@ ul, li {
     font-size: var(--fonte-size-titulos);
     text-align: center;
     margin-top: -60px;
-    color: var(--cor-titulos);
+    color: #000;
     
 }
 
@@ -208,6 +215,15 @@ ul, li {
     margin-bottom: 1.5rem;
     color: #fff;
     padding: 0.5rem;
+}
+
+.card-plano--fibra {
+    display: flex;
+    gap: .5rem;
+}
+
+.img-fibraIco {
+    width: 30px;
 }
 
 .card-plano p {
