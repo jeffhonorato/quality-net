@@ -597,6 +597,7 @@ details[open] summary ~ * {
         font-size: var(--fonte-size-subtitulo);
     }
 
+
     .acordion--img {
         width: 300px;
     }
@@ -624,7 +625,7 @@ details[open] summary ~ * {
     }
 
     .acordion-item summary {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .acordion-item p {
