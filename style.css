@@ -551,6 +551,10 @@ details[open] summary ~ * {
         width: 260px;
     }
 
+    .titulo-plano h2 {
+        font-size: 2rem;
+    }
+
     .titulo-plano h3 {
         font-size: var(--fonte-size-corpo);
     }
