@@ -360,18 +360,17 @@ details[open] summary ~ * {
 }
 
 .s-caixas {
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
-    gap: 1rem;
-    /* align-items: center; */
     justify-content: center;
-    
+    align-items: center;
+    gap: 1rem;
 }
 
 .caixa {
-    max-width: 400px;
     text-align: center;
     padding: 1rem;
+    /* width: 300px; */
 }
 
 .caixa img {
@@ -411,23 +410,25 @@ details[open] summary ~ * {
     font-weight: bold;
 }
 
-/**************** SECTION - TESTE VELOCIDADE ****************/  
-.teste {
-    background-image: url("./img/background-teste.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 200px;
+.speed-teste {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .speed-teste h2 {
     font-family: var(--fonte-corpo);
     font-size: var(--fonte-size-titulos);
-    color: #fff;
+    color: #000;
     text-align: center;
-    padding-top: 4rem;
     margin-bottom: 1rem;
 }
+
+/* .teste__bloco {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+} */
 
 .speed-teste a {
     font-family: var(--fonte-corpo);
@@ -435,11 +436,9 @@ details[open] summary ~ * {
     background-color: #96031A;
     color: #fff;
     padding: 0.5rem;
-    display: block;
     text-align: center;
     border-radius: 20%;
     width: 160px;
-    margin: 10px auto;
 }
 
 .speed-teste a:hover {
@@ -641,6 +640,13 @@ details[open] summary ~ * {
         padding: 0.5rem;
     }
 
+    .s-caixas {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-content: center;
+        gap: 1rem;
+    }
+
     .speed-teste h2 {
         font-size: var(--fonte-size-corpo);
         padding: 0.5rem;
@@ -734,6 +740,13 @@ details[open] summary ~ * {
 
     .card-plano:nth-child(3) {
         margin-bottom: 2rem;
+    }
+
+    .s-caixas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-content: center;
+        gap: 1rem;
     }
 
     .speed-teste h2 {
