@@ -5,4 +5,4 @@ function toggleMenu() {
     nav.classList.toggle('ativo');
 }
 
-btnMobile.addEventListener('click', toggleMenu)
+btnMobile.addEventListener('click', toggleMenu);

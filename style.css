@@ -153,7 +153,6 @@ ul, li {
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
-    perspective: 700px;
 }
 
 .titulo-fibra, .titulo-radio {
@@ -170,7 +169,6 @@ ul, li {
 
 .card-plano {
     padding: 2rem;
-    transform: rotateX(4deg);
     box-shadow: 0px 0px 30px 0px #96031A;
 
     background: rgba(101, 132, 254, 0.215);
@@ -179,6 +177,7 @@ ul, li {
     backdrop-filter: blur(0px);
     -webkit-backdrop-filter: blur(0px);
     border: 1px solid rgba(101, 132, 254, 0);
+    height: 500px;
 
 }
 
@@ -762,3 +761,16 @@ details[open] summary ~ * {
     }
 }
 
+/**************** SWIPER JS ****************/
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 700px;
+  }
