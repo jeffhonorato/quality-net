@@ -148,12 +148,12 @@ ul, li {
     color: #fff;
 }
 
-.cards {
+/* .cards {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
-}
+} */
 
 .titulo-fibra, .titulo-radio {
     font-family: var(--fonte-titulos);
@@ -169,26 +169,21 @@ ul, li {
 
 .card-plano {
     padding: 2rem;
-    box-shadow: 0px 0px 30px 0px #96031A;
-
-    background: rgba(101, 132, 254, 0.215);
+    box-shadow: 0px 0px 10px 0px #fff;
+    background: var(--cor-titulos);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.615);
-    backdrop-filter: blur(0px);
-    -webkit-backdrop-filter: blur(0px);
-    border: 1px solid rgba(101, 132, 254, 0);
     height: 500px;
 
 }
 
 .card-plano:hover {
-    transform: rotateX(0deg);
     transition: all .6s;
-    box-shadow: 1px 1px 1px 4px #fff;
+    box-shadow: 0px 0px 30px 0px #fff;
+    background: #2c56ff;
 }
 
 .imgHeader {
-    width: 200px;
+    width: 160px;
     position: relative;
     bottom: 100px;
     margin: 0 auto;
@@ -217,6 +212,13 @@ ul, li {
     padding: 0.5rem;
 }
 
+.card--flex {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
 .card-plano--info {
     display: flex;
     gap: .5rem;
@@ -224,12 +226,12 @@ ul, li {
 }
 
 .img-ico {
-    width: 50px;
+    width: 30px;
 }
 
 .card-plano p {
     font-family: var(--fonte-corpo);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #fff;
 }
 
@@ -772,5 +774,5 @@ details[open] summary ~ * {
     background-position: center;
     background-size: cover;
     width: 300px;
-    height: 700px;
+    height: 500px;
   }
