@@ -363,14 +363,14 @@ details[open] summary ~ * {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     gap: 1rem;
 }
 
 .caixa {
     text-align: center;
     padding: 1rem;
-    /* width: 300px; */
+    width: 300px;
 }
 
 .caixa img {
@@ -418,7 +418,7 @@ details[open] summary ~ * {
 
 .speed-teste h2 {
     font-family: var(--fonte-corpo);
-    font-size: var(--fonte-size-titulos);
+    font-size: var(--fonte-size-subtitulo);
     color: #000;
     text-align: center;
     margin-bottom: 1rem;
