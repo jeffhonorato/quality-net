@@ -170,9 +170,9 @@ ul, li {
 .card-plano {
     padding: 2rem;
     box-shadow: 0px 0px 10px 0px #fff;
-    background: var(--cor-titulos);
+    background: linear-gradient(20deg,#6583FE, #2d3d7a );
     border-radius: 16px;
-    height: 500px;
+    height: 460px;
 
 }
 
@@ -185,20 +185,21 @@ ul, li {
 .imgHeader {
     width: 160px;
     position: relative;
-    bottom: 100px;
+    bottom: 120px;
     margin: 0 auto;
 }
 
 .card-preco {
     box-shadow: 1px 1px 10px 1px #fff;
     border-radius: 20%;
+    margin-top: -50px;
 }
 
 .card-plano h2 {
     font-family: var(--fonte-titulos);
     font-size: var(--fonte-size-titulos);
     text-align: center;
-    margin-top: -60px;
+    margin-top: -120px;
     color: #000;
     
 }
@@ -566,7 +567,8 @@ details[open] summary ~ * {
     }
 
     .card-plano {
-        width: 280px;
+        width: 300px;
+        height: 410px;
         margin-bottom: 50px;
         padding: 0.5rem;
         transform: rotateX(1deg);
@@ -725,6 +727,7 @@ details[open] summary ~ * {
 
     .card-plano {
         width: 320px;
+        /* height: 410px; */
         padding: 1rem;
         margin-bottom: 2rem;
     }
