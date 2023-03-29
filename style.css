@@ -310,7 +310,7 @@ ul, li {
 }
 
 .acordion-item p {
-    width: 500px;
+    /* width: 500px; */
     margin: 0 auto;
     padding: 1rem;
     font-family: var(--fonte-corpo);
@@ -318,9 +318,11 @@ ul, li {
     line-height: 1.4;
     text-align: start;
     color: #000;
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,.9) 0%, rgba(187,209,218,.9) 100%);
+    background: rgb(101,131,254);
+    background: linear-gradient(0deg, rgba(101,131,254, .1) 0%, rgba(255,255,255,1) 100%);        
     border-radius: 1rem;
+    
+
 }
 
 .acordion-item a {
@@ -632,6 +634,9 @@ details[open] summary ~ * {
        width: 280px; 
        margin: 0 auto;
        padding: 0.5rem;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
     }
 
     .acordion-item summary {
@@ -641,6 +646,7 @@ details[open] summary ~ * {
     .acordion-item p {
         width: 320px;
         padding: 0.5rem;
+        
     }
 
     .s-caixas {
