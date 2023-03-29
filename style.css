@@ -310,20 +310,26 @@ ul, li {
 }
 
 .acordion-item p {
-    /* width: 500px; */
+    
     margin: 0 auto;
     padding: 1rem;
     font-family: var(--fonte-corpo);
     font-size: 1rem;
     line-height: 1.4;
     text-align: start;
-    color: #000;
-    background: rgb(101,131,254);
-    background: linear-gradient(0deg, rgba(101,131,254, .1) 0%, rgba(255,255,255,1) 100%);        
+    color: #fff;    
     border-radius: 1rem;
     
 
 }
+
+.acordion__item--p {
+    background-color: rgba(106, 106, 106, .5);
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10px 1px #fff;
+
+}
+
 
 .acordion-item a {
     font-family: var(--fonte-corpo);
@@ -628,6 +634,11 @@ details[open] summary ~ * {
         font-size: 1rem;
         padding: 1rem;
         margin: 0 auto;
+    }
+
+    .acordion__item--p {
+        padding: .4rem;
+        width: 320px;
     }
     
     .acordion-item {
