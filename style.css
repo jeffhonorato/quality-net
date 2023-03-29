@@ -660,6 +660,11 @@ details[open] summary ~ * {
         
     }
 
+    .suporte {
+        display: grid;
+        place-content: center;
+    }
+
     .s-caixas {
         display: grid;
         grid-template-columns: 1fr;
