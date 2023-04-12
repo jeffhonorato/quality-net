@@ -194,6 +194,7 @@ ul, li {
     box-shadow: 1px 1px 10px 1px #fff;
     border-radius: 20%;
     margin-top: -50px;
+    background-color: #010D63;
 }
 
 .card-plano h2 {
@@ -201,7 +202,7 @@ ul, li {
     font-size: var(--fonte-size-titulos);
     text-align: center;
     margin-top: -120px;
-    color: #000;
+    color: #fff;
     
 }
 
@@ -240,7 +241,7 @@ ul, li {
 .card-plano a {
     font-family: var(--fonte-titulos);
     font-size: var(--fonte-size-subtitulo);
-    background-color: #96031A;
+    background-color: #010D63;
     color: #fff;
     padding: 0.5rem;
     display: block;
@@ -250,9 +251,9 @@ ul, li {
 }
 
 .card-plano a:hover {
-    background-color: var(--cor-itens-btn);
+    background-color: #fff;
     transition: all 0.6s;
-    color: #000;
+    color: #010D63;
 }
 
 .radio {
@@ -372,6 +373,13 @@ details[open] summary ~ * {
     padding: 2rem 0rem;
     background: rgb(1,13,124);
     background: linear-gradient(0deg, rgba(1,13,124,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.plano__empresa--titulo {
+    color: #fff;
+    font-size: var(--fonte-size-titulos);
+    font-family: var(--fonte-titulos);
+    text-align: center;
 }
 
 /**************** SECTION - SUPORTE ****************/
