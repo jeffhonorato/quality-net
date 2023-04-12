@@ -146,6 +146,7 @@ ul, li {
     font-family: var(--fonte-corpo);
     font-size: var(--fonte-size-subtitulo);
     color: #fff;
+
 }
 
 /* .cards {
@@ -261,7 +262,7 @@ ul, li {
  /**************** TIRA DÚVIDAS - ACCORDION ****************/
  .duvidas {
      margin-top: -20px;
-     background-color: #010D63;
+     background-color: #fff;
      padding: 3rem 0rem;
  }
 
@@ -324,7 +325,7 @@ ul, li {
 }
 
 .acordion__item--p {
-    background-color: rgba(106, 106, 106, .5);
+    background-color: #2d3d7a;
     border-radius: 1rem;
     box-shadow: 1px 1px 10px 1px #fff;
 
@@ -365,6 +366,14 @@ details[open] summary ~ * {
         margin-top: 0px;
     }
 }
+
+/**************** SECTION - PLANO EMPRESA ****************/
+.plano__empresa {
+    padding: 2rem 0rem;
+    background: rgb(1,13,124);
+    background: linear-gradient(0deg, rgba(1,13,124,1) 0%, rgba(0,0,0,1) 100%);
+}
+
 /**************** SECTION - SUPORTE ****************/
 .suporte {
     padding: 3rem 0;
@@ -570,6 +579,7 @@ details[open] summary ~ * {
 
     .titulo-plano h3 {
         font-size: var(--fonte-size-corpo);
+        padding: 0rem .5rem;
     }
 
     .cards {
