@@ -761,6 +761,9 @@ details[open] summary ~ * {
 }
 
 @media(min-width: 425px) and (max-width:1023px) {
+    .info-conteudo h1 {
+        font-size: 3.4rem;
+    }
     .acordion-item {
         width: 400px;
     }
@@ -803,11 +806,11 @@ details[open] summary ~ * {
     }
 
     .titulo-plano h2 {
-        font-size: var(--fonte-size-subtitulo);
+        font-size: 3rem;
     }
 
     .titulo-plano h3 {
-        font-size: var(--fonte-size-corpo);
+        font-size: 2.5rem;
         padding: 1rem;
     }
 
