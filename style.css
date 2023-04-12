@@ -263,23 +263,30 @@ ul, li {
 /**************** SECTION - PLANO EMPRESA ****************/
 .plano__empresa {
     padding: 2rem 0rem;
-    height: 100vh;
-    background: rgb(1,13,124);
-    background: linear-gradient(0deg, rgba(1,13,124,1) 0%, rgba(0,0,0,1) 100%);
+    /* height: 100vh; */
+    
 }
 
 .plano__empresa--titulo {
-    color: #fff;
+    color: #2c56ff;
     font-size: 4rem;
     font-family: var(--fonte-titulos);
     text-align: center;
 }
 
+.plano__empresa--conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
  /**************** TIRA DÚVIDAS - ACCORDION ****************/
  .duvidas {
-     margin-top: -20px;
-     background-color: #fff;
-     padding: 3rem 0rem;
+    margin-top: -20px;
+    background: rgb(1,13,124);
+    background: linear-gradient(0deg, rgba(1,13,124,1) 0%, rgba(0,0,0,1) 100%);
+    padding: 3rem 0rem;
  }
 
 .duvidas-titulo {
@@ -383,8 +390,6 @@ details[open] summary ~ * {
     }
 }
 
-
-
 /**************** SECTION - SUPORTE ****************/
 .suporte {
     padding: 3rem 0;
@@ -424,7 +429,7 @@ details[open] summary ~ * {
 .caixa a {
     font-family: var(--fonte-corpo);
     font-size: var(--fonte-size-corpo);
-    background-color: #96031A;
+    background-color: #010D63;
     color: #fff;
     padding: 0.5rem;
     display: block;
@@ -435,10 +440,9 @@ details[open] summary ~ * {
 }
 
 .caixa a:hover {
-    background-color: var(--cor-itens-btn);
+    background-color:#6583FE;
     transition: all 0.6s;
-    color: #000;
-    font-weight: bold;
+    
 }
 
 .speed-teste {
@@ -455,16 +459,10 @@ details[open] summary ~ * {
     margin-bottom: 1rem;
 }
 
-/* .teste__bloco {
-    display: flex;    
-    justify-content: center;
-    align-items: center;
-} */
-
 .speed-teste a {
     font-family: var(--fonte-corpo);
     font-size: var(--fonte-size-corpo);
-    background-color: #96031A;
+    background-color: #010D63;
     color: #fff;
     padding: 0.5rem;
     text-align: center;
@@ -473,10 +471,8 @@ details[open] summary ~ * {
 }
 
 .speed-teste a:hover {
-    background-color: var(--cor-itens-btn);
+    background-color:#6583FE;
     transition: all 0.6s;
-    color: #000;
-    font-weight: bold;
 }
 
 .speed-teste img {
@@ -630,6 +626,10 @@ details[open] summary ~ * {
         width: 100px;
         margin: 1rem auto;
         
+    }
+
+    .plano__empresa--titulo {
+        font-size: 3.2rem;
     }
 
     .duvidas-titulo {
