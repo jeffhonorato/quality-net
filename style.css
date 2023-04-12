@@ -275,6 +275,26 @@ ul, li {
     align-items: center;
 }
 
+.plano__empresa--info {
+    position: relative;
+}
+
+.plano__empresa--circle {
+    position: absolute;
+    top: -20px;
+    left: -80px;
+    width: 100px;
+    opacity: .5;
+}
+
+.plano__empresa--circle-1 {
+    position: absolute;
+    top: 50px;
+    right: -50px;
+    width: 100px;
+    opacity: .2;
+}
+
 .plano__empresa--h2 {
     font-family: var(--fonte-titulos);
     text-align: center;
@@ -756,6 +776,14 @@ details[open] summary ~ * {
     .g-maps iframe {
         width: 320px;
         margin-bottom: 2rem;
+    }
+
+    .plano__empresa--circle {
+        position: absolute;
+        top: -20px;
+        left: -40px;
+        width: 100px;
+        opacity: .5;
     }
 
 }
