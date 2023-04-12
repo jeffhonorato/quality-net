@@ -305,9 +305,9 @@ ul, li {
 }
 
 .acordion-item summary:hover {
-    background-color: #fff;
+    background-color: #2d3d7a;
     transition: all .6s;
-    color: #000;
+    color: #fff;
 }
 
 .acordion-item p {
